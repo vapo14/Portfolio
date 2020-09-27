@@ -21,4 +21,27 @@ h5 {
 
 .lead {
   text-align: justify;
+  color: #333;
+}
+
+.card {
+  width: 500px;
+  border: none;
+  -webkit-box-shadow: 4px 11px 103px -42px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px 11px 103px -42px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 11px 103px -42px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+@media (max-width: 992px) {
+  .card {
+    margin-top: 2rem;
+    width: fit-content;
+  }
+  .carousel-inner {
+    height: 400px;
+  }
 }
