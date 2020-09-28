@@ -45,3 +45,9 @@ h5 {
     height: 400px;
   }
 }
+
+@media (max-width: 574px) {
+  .carousel-inner {
+    height: 200px;
+  }
+}
